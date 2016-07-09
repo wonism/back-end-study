@@ -1,7 +1,8 @@
 # Back-end
 <p>공부하고 싶은 내용들을 공부하는 repository 입니다.</p>
 __공부하고 있는 것들__
-- [Node JS | passport 모듈](https://github.com/wonism/back-end-study/tree/master/nodejs/passport-example)
+- Node JS
+  - [passport 모듈을 이용한 로그인 기능 구현](https://github.com/wonism/back-end-study/tree/master/nodejs/passport-example)
 
 __앞으로 추가하려는 내용들__
 - Express JS (Node JS framework)

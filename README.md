@@ -6,6 +6,7 @@ __공부하고 있는 것들__
 
 __앞으로 추가하려는 내용들__
 - Express JS (Node JS framework)
+- Let's Encrypt + Nginx 로 https 지원하기
 - Ruby On Rails
 - Web Socket
 - Node Mailer 모듈

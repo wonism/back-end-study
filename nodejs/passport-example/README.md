@@ -284,6 +284,20 @@ app.use(passport.session());
 
 /* ... */
 ```
+- 이 때, 주의할 것은, app.use(passport.initialize()); 와 app.use(passport.session()); 을 favicon 설정이나 assets(css, js etc..)  설정 이후에 작성해야 한다는 것이다.
+  - 다음과 같은 상황을 예로 들 수 있다.
+```js
+app.use(passport.initialize());
+app.use(passport.session());
+
+app.use(express.favicon());
+app.use(express.static(path.join(__dirname, 'PUBLICPATH'));
+/*
+ * 이렇게 되면,
+ * favicon 이나 public 내의 불려지는 파일들을 request 하는 만큼,
+ * deserializeUser() 함수를 호출하게 되면서, 자원을 낭비하게 된다.
+ */
+```
 
 ### Passport 사용을 위한 config 파일 작성
 __config/config.json 작성__

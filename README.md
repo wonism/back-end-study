@@ -5,7 +5,7 @@ __공부하고 있는 것들__
   - [passport 모듈을 이용한 로그인 기능 구현](https://github.com/wonism/back-end-study/tree/master/nodejs/passport-example)
   - [nodemailer 로 메일 보내기](https://github.com/wonism/back-end-study/tree/master/nodejs/nodemailer-example)
   - [AWS S3 에 이미지 업로드 하기](https://github.com/wonism/back-end-study/tree/master/nodejs/s3-image-upload)
-  - [sequelize & sequelize-cli 로 DB Migration 및 사용 하기](https://github.com/wonism/back-end-study/tree/master/nodejs/sequelize-cli-example)
+  - [sequelize & sequelize-cli 로 DB Migration 및 사용 하기(작성중)](https://github.com/wonism/back-end-study/tree/master/nodejs/sequelize-cli-example)
 - Nginx
   - [Let's Encrypt 로 https 지원하기](https://github.com/wonism/back-end-study/tree/master/nginx/lets-encrypt-example)
 
